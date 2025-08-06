@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f7fa;
+    }
+
+    .menu-container {
+      max-width: 600px;
+      margin: 5rem auto;
+      background-color: #ffffff;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      text-align: center;
+    }
+
+    h1 {
+      color: #0078d4;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .menu-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .menu-list li {
+      margin: 1rem 0;
+    }
+
+    .menu-list a {
+      text-decoration: none;
+      font-size: 1.1rem;
+      color: #333;
+      padding: 0.8rem 1.2rem;
+      display: inline-block;
+      border-radius: 8px;
+      transition: background-color 0.2s, color 0.2s;
+    }
+
+    .menu-list a:hover {
+      background-color: #0078d4;
+      color: #fff;
+    }
+
+    .description {
+      margin-top: 2rem;
+      font-size: 0.95rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu-container">
+    <h1>📋 Voice Assistant Menu</h1>
+    <ul class="menu-list">
+      <li><a href="{{ url_for('index') }}">🏠 Home</a></li>
+      <li><a href="#features">✨ Features</a></li>
+      <li><a href="#use-cases">💡 Use Cases</a></li>
+      <li><a href="{{ url_for('contact') }}">📬 Contact</a></li>
+    </ul>
+    <p class="description">
+      Use voice commands like “Click Menu” or “Go to Contact” to navigate through this accessible assistant interface.
+    </p>
+  </div>
+</body>
+</html>
