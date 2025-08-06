@@ -52,10 +52,14 @@ Many individuals with motor impairments face barriers when navigating the web du
 🧠 AI-based command personalization
 
 ---
+---
+## 👥 Collaborators
 
-👨‍💻 Authors
-- Shobhana S. - @Shobhanashankar
-- Ummadi Mythri Reddy - @UmmaMythriReddy
+| Name              | GitHub Username |
+| ----------------- | --------------- |
+| **Shobhana S**    | [@Shobhanashankar](https://github.com/Shobhanashankar) |
+| **Ummadi Mythri Reddy**     | [@UmmadiMythriReddy](https://github.com/UmmadiMythriReddy)  |
+
 
 ---
 🙌 Acknowledgements
