@@ -1,4 +1,4 @@
-# Inclusive Voice Assistant 🔊🧑‍🦽
+# Inclusive Voice Assistant 🔊
 
 A web-based, voice-controlled assistant designed to help users with motor impairments navigate websites hands-free. Built using **Azure Speech Services**, **Flask**, and **Vanilla JavaScript**, this project enhances accessibility through real-time voice commands and feedback.
 
